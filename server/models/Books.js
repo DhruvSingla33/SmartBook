@@ -11,27 +11,26 @@ const BookSchema = new Schema({
 
     slug: {
         type: String,
-        // required: true,
+    
     },
 
     description: {
         type: String,
-        // required: true,
+
     },
 
     thumbnail: {
         type: String,
-        // required: true,
+      
     },
 
     stars: {
         type: Number,
-        // required: true,
+
     },
 
     category: {
         type: Array,
-        // required: true,
     },
 
     createdAt: {
